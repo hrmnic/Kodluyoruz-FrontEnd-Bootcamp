@@ -1,0 +1,152 @@
+body{
+    margin:40px;
+    padding:5px;
+    font-family: 'Noticia Text', serif;
+    
+}
+.navbar
+{
+    
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
+    
+}
+
+.navbar li
+{
+    float: left ;
+    width: 100px;
+    font-weight: bold;
+    list-style-type: none;
+    
+}
+span{
+    
+    font-size: 40px;
+}
+
+.header{
+    background-image: url('https://i.hizliresim.com/rghouwq.png');
+  
+}
+
+.header img
+{
+    overflow: auto;
+    margin-top: 60px;
+    float:right;
+    margin-bottom: 40px;
+    
+}
+.header h2
+{
+    padding-left: 130px;
+    padding-top: 20px;
+    font-weight: normal;
+  
+}
+.header p
+{
+    
+    font-size: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:start; 
+    padding-left: 130px;
+    width: 90px;
+    height: 300px;
+    line-height: 40px;
+     
+}
+
+.header h3{
+    
+    padding-left: 130px;
+    margin-top: 0px;
+    
+}
+
+.left-img
+{  
+    float: left;   
+}
+.left p{
+    padding-left: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:start;  
+    margin-left: 80px; 
+    width: 20%;   
+}
+.text 
+{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 300px; 
+    padding-top: 20px;
+    padding-right: 300px;
+    padding-left: 600px;
+    text-align:start;
+    text-indent: 15px;
+    margin-bottom: 300px;
+       
+}
+.image3
+{
+    padding-left: 400px;
+}
+
+.footer
+{
+    height: 400px;
+    width: responsive;
+    background-color:#232323;
+    color: #fdfaf6; 
+    margin-top: 0px;
+    padding-left: 150px;
+    padding-top: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.footer-list {
+    
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    color: #FFF;
+
+}
+
+.related
+{
+    background-color: #fff5fd;
+    padding-left: 100px;
+    padding-bottom: 500px;
+    margin-top: 100px;
+    
+    font-size: 20px;
+    
+}
+.rel
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    float: left;
+    margin-right: 20px;
+    padding-left: 150px;
+    width: 90px; 
+  
+}
+.rel h3
+{
+    width: 180px;
+    font-size: 10px;
+}
+.related h2
+{
+    margin-left: 215px;
+    padding-top: 50px;
+    color: rgb(71, 68, 68);
+    font-weight: bold;
+}

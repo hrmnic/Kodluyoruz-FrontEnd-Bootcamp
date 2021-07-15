@@ -1,0 +1,100 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-nav ul {
+    list-style-type: none;
+    text-align: center;
+  
+}
+.header-nav ul li{
+    
+    display: inline-block;
+    padding: 10px; 
+    
+}
+
+.header-nav{
+    background-color: #f6e5e9;  
+    height: auto;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+.header-nav a:link,a:visited{
+    background-color: #f44336;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.header-nav s:hover, a:active{
+    background-color:red;
+    
+}
+
+.navsearch{
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;   
+    font-size: 16px;
+    background-color: white;
+    padding: 12px 20px 12px 40px;
+    border-radius: 100px;
+    width: auto;    
+}
+.img{
+    float: left;
+    margin-left: 50px;
+    margin-top: 10px;
+       
+}
+
+.description{
+
+    padding:0px 0px 70px 70px;
+}
+.des-rigth{
+    padding: 10px;
+    
+}
+.des-top{
+    margin-left: 11rem;
+}
+
+.section{
+    text-align: center; 
+    margin-left: 8rem;
+    margin-top: 3rem;   
+    height: 35.5rem !important;
+    border-style: solid;
+    display: inline-block;
+    
+    
+}
+.article{
+    margin-top: -41rem;
+    margin-left: 53rem;
+}
+.sec-bt {
+    margin-top: 23rem;
+    text-align: center;
+}
+
+.search-icon{
+    width: 1rem;
+    margin-left: -2rem;
+}
+.h1-header{
+    margin-left: 38rem;
+    font-size: 45px;
+}
+
+.img-kek{
+    margin-top: 4.7rem !important;
+
+}
+.h2-header{
+    margin-top:5rem;
+}

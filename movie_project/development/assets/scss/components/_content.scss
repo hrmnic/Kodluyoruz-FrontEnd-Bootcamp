@@ -1,0 +1,37 @@
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    &__movie{
+        margin-left: 100px;
+        &__data{
+            &__head{
+                color: $text-color;
+            }
+            &__text{
+                color: $text-color;
+            }
+            &__watch{
+                color: $text-color;
+                background-color: black;
+                margin-top: 20px;
+                padding: 20px 30px;
+                text-align: center;
+                width: 150px;
+                height: 30px;
+                border-radius: 10px;
+                border: 2px solid red;
+                padding-bottom: 30px;
+                transition-duration: 0.4s;
+                margin-top: 150px;
+                margin-bottom: 30px;
+
+                &:hover{
+                    color: red;
+                }
+            }
+        }
+    }
+}
+
+

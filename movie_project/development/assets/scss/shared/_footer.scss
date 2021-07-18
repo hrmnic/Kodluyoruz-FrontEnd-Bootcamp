@@ -1,0 +1,44 @@
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    
+    &__items{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        
+        
+    }
+    &__header__logo{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    &__started__btn{
+        background-color: red;
+        color: $text-color;
+        width: 100px;
+        height: 40px;
+        border-radius: 7px;
+        
+    }
+    &__started__text{
+        width: 500px;
+        height: 40px;
+        border-radius: 7px;
+    }
+    &__contact__text{
+        color: $text-color;
+    }
+    &__contact__icon{
+        width: 30px;
+        height: 30px;
+        margin-left: 5px;
+    }
+
+}
+
+
+
+

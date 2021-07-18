@@ -1,0 +1,27 @@
+.nav{
+    display: flex; 
+    flex-direction: row;
+    
+    
+    &__list{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    &__item{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 20px;
+        padding-left: 60px;
+        text-decoration: none;
+        color: white;
+        
+        &:hover{
+            color: red;
+        }
+        
+    }
+}
+
+

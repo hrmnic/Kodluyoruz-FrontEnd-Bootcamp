@@ -1,0 +1,37 @@
+body{
+    background-image: url('../images/bg.jpg');
+}
+.categories{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+    &__btn{
+        color: white;
+        background-color: black;
+        margin-top: 20px;
+        padding: 20px 30px;
+        text-align: center;
+        width: 150px;
+        height: 30px;
+        border-radius: 10px;
+        border: 2px solid red;
+        padding-bottom: 30px;
+        transition-duration: 0.4s;
+        margin-top: 150px;
+        margin-bottom: 30px;
+        
+        
+        &:hover{
+            color: red;
+        }
+}
+    
+
+}
+.categories__text{
+    
+    color: white;
+    margin-bottom: 60px;
+    
+}

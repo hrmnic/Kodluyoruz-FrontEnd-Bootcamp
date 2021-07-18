@@ -1,0 +1,148 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.nav__item {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 20px;
+  padding-left: 60px;
+  text-decoration: none;
+  color: white;
+}
+.nav__item:hover {
+  color: red;
+}
+
+.sign {
+  color: white;
+  padding-left: 40px;
+  padding-top: 40px;
+}
+.sign__btn {
+  border-radius: 7px;
+  background-color: red;
+  padding: 20px 30px;
+  padding-bottom: 30px;
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+  color: white;
+  margin-top: 30px;
+}
+.sign__title {
+  color: white;
+}
+.sign__subtitle {
+  color: white;
+}
+
+body {
+  background-image: url("/bg.a15e6df0.jpg");
+}
+
+.categories {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.categories__btn {
+  color: white;
+  background-color: black;
+  margin-top: 20px;
+  padding: 20px 30px;
+  text-align: center;
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+  border: 2px solid red;
+  padding-bottom: 30px;
+  transition-duration: 0.4s;
+  margin-top: 150px;
+  margin-bottom: 30px;
+}
+.categories__btn:hover {
+  color: red;
+}
+
+.categories__text {
+  color: white;
+  margin-bottom: 60px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.content__movie {
+  margin-left: 100px;
+}
+.content__movie__data__head {
+  color: white;
+}
+.content__movie__data__text {
+  color: white;
+}
+.content__movie__data__watch {
+  color: white;
+  background-color: black;
+  margin-top: 20px;
+  padding: 20px 30px;
+  text-align: center;
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+  border: 2px solid red;
+  padding-bottom: 30px;
+  transition-duration: 0.4s;
+  margin-top: 150px;
+  margin-bottom: 30px;
+}
+.content__movie__data__watch:hover {
+  color: red;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.footer__items {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.footer__header__logo {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.footer__started__btn {
+  background-color: red;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border-radius: 7px;
+}
+.footer__started__text {
+  width: 500px;
+  height: 40px;
+  border-radius: 7px;
+}
+.footer__contact__text {
+  color: white;
+}
+.footer__contact__icon {
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+}
+
+/*# sourceMappingURL=/main.90218242.css.map */
